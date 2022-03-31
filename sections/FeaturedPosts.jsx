@@ -36,10 +36,10 @@ const FeaturedPosts = () => {
   }, []);
 
   const customLeftArrow = (
-    <div className="absolute left-0  cursor-pointer bg-pink-600 rounded-full" style={{height:'30px', width:'30px', alignSelf:'center'}}>
+    <div className="absolute left-0 bg-pink-600 rounded-full cursor-pointer" style={{height:'30px', width:'30px', alignSelf:'center'}}>
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full place-self-center"
+        className="w-6 h-6 text-white place-self-center"
         fill="none"
         viewBox="0 0 10 24"
         stroke="currentColor"
@@ -56,11 +56,11 @@ const FeaturedPosts = () => {
 
   const customRightArrow = (
     <div
-      className="absolute  px-4 right-0 cursor-pointer bg-pink-600 rounded-full"
+      className="absolute right-0 px-4 bg-pink-600 rounded-full cursor-pointer"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        className="h-6 w-6 text-white w-full"
+        className="w-6 h-6 text-white"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
@@ -74,7 +74,6 @@ const FeaturedPosts = () => {
       </svg>
     </div>
   );
-
   return (
     <div className="mb-8">
       <Carousel
